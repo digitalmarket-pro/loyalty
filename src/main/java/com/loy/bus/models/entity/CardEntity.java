@@ -38,4 +38,5 @@ public class CardEntity implements Serializable {
     CardStatus status ;
 
 
+
 }

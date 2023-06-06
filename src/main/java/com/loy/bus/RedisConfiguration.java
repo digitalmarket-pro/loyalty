@@ -29,5 +29,7 @@ public class RedisConfiguration {
         RedisTemplate<String, Object> redistemplate = new RedisTemplate<>();
         redistemplate.setConnectionFactory(jedisConnectionFactory());
         return redistemplate;
+
+
     }
 }

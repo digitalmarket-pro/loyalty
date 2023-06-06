@@ -30,5 +30,6 @@ public class RedisConfiguration {
         redistemplate.setConnectionFactory(jedisConnectionFactory());
         return redistemplate;
 
+
     }
 }

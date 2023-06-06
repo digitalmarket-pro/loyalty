@@ -31,3 +31,4 @@ public class RedisConfiguration {
         return redistemplate;
     }
 }
+

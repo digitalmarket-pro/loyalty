@@ -20,7 +20,7 @@ public class LoyaltyOperationEntity implements Serializable {
     String operationId;
     @Temporal(TemporalType.DATE)
    Date accountingDate;
-    @Temporal(TemporalType.DATE)
+    @Temporal(TemporalType.TIMESTAMP)
     Date  operationDate;
     String contractCode;
     String contractDetailCode;

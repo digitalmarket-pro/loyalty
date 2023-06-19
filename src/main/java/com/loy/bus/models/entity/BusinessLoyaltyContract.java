@@ -8,8 +8,10 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
+
 import java.io.Serializable;
 import java.util.Date;
+
 
 @Data
 @Builder
@@ -25,7 +27,7 @@ public class BusinessLoyaltyContract implements Serializable {
     String businessCode;
     String productCode;
      @Temporal(TemporalType.DATE)
-    Data applicationDate;
+    Date applicationDate;
      @Temporal(TemporalType.DATE)
      Date suspensionDate;
      @Column(columnDefinition = "text")
